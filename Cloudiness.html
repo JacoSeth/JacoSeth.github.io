@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body class="body">
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <!-- Start Navbar responsive -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="d-flex flex-grow-1">
+            <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+            <a class="navbar-brand" href="http://127.0.0.1:5500/HomePage.html">
+                LATITUDE
+            </a>
+            <div class="w-100 text-right">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse flex-grow-1 text-right" id="Navbar">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="http://127.0.0.1:5500/Temperature.html">Latitude v. Temperature</a>
+                      <a class="dropdown-item" href="http://127.0.0.1:5500/Humidity.html">Latitude v. Humidity</a>
+                      <a class="dropdown-item" href="http://127.0.0.1:5500/Cloudiness.html">Latitude v. Cloudiness</a>
+                      <a class="dropdown-item" aria-hidden="true" href="http://127.0.0.1:5500/Wind%20Speed.html">Latitude v. Wind Speed</a>
+                      <div class="dropdown-divider"></div>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                    <a href="http://127.0.0.1:5500/HomePage.html" class="nav-link">Comparisons</a>
+                </li>
+                <li class="nav-item">
+                    <a href="http://127.0.0.1:5500/Data.html" class="nav-link">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+        <!-- End Navbar responsive -->
+
+    <style>
+        .navbar{
+      padding: 30px;
+    }
+    
+    .body{
+      background-color: #D0EDF0
+    }
+
+    .CloudinessHeader{
+        margin: 70px;
+        color: #343a40;
+        padding-top: 70px;
+        text-align: center;
+    }
+
+    .Cloudiness{
+        border-radius: 15px;
+    }
+
+    .container{
+        background-color: aliceblue;
+        margin: 100px;
+        padding-bottom: 25px;
+        border-radius: 25px
+    }
+    .p1{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    </style>
+
+<div class="container">
+        <div class="CloudinessHeader"><h1><strong>Latitude V. Cloudiness</strong></h1>
+        <img class="Cloudiness" src="Instructions/Resources/assets/images/lat_v_cloudiness.png">
+
+      <p class = "p1">Cloudiness has a discernable correlation to Latitude. There are recognizable 
+          patterns in cloud distribution which are mirrored at positive and negative latitudes. This 
+          is likely due to correlation with another factor -humidity- which can serve as another 
+          variable impacting cloud density around the world. 
+      </p>
+</div>
+  </body>
+</html>
