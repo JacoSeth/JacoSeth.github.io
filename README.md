@@ -1,1 +1,0 @@
-# JacoSeth.github.io
