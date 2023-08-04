@@ -2097,10 +2097,28 @@ input[type="radio"]+label:before {
 
 /* Icon */
 
-.icon {
-    text-decoration: none;
-    border-bottom: none;
-    position: relative;
+.fa,
+.fa-brands,
+.fa-classic,
+.fa-regular,
+.fa-sharp,
+.fa-solid,
+.fab,
+.far,
+.fas {
+    line-height: unset !important;
+}
+
+
+/* Rotate envira icon */
+
+.fa-envira:before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    display: inline-block;
 }
 
 .icon:before {
@@ -2125,7 +2143,7 @@ input[type="radio"]+label:before {
 }
 
 .icon.brands:before {
-    font-family: 'Font Awesome 5 Brands';
+    font-family: 'Font Awesome 6 Brands';
 }
 
 
@@ -2940,12 +2958,18 @@ ul.feature-icons li {
 }
 
 ul.feature-icons li:before {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512'%3E%3Cpath d='M256,0l221.7,128v256L256,512L34.3,384V128L256,0z' fill='rgba(144, 144, 144, 0.1)' /%3E%3C/svg%3E");
+    /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512'%3E%3Cpath d='M256,0l221.7,128v256L256,512L34.3,384V128L256,0z' fill='rgba(144, 144, 144, 0.1)' /%3E%3C/svg%3E"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     color: #000000;
-    display: block;
+    display: inline-block !important;
+    /* -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg); */
+    display: inline-block;
     font-size: 1.25rem;
     height: 3.25rem;
     left: 0;
