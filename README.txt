@@ -1,3 +1,10 @@
+This is my personal site!  Original template built by html5up.  Credits for that below. This site is a work in progress and will be updated a lot in the coming days. 
+
+
+
+~~~~~
+
+
 Paradigm Shift by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
