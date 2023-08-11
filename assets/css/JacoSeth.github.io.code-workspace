@@ -1,0 +1,16 @@
+{
+    "folders": [
+		{
+			"name": "JacoSeth.github.io",
+			"path": "../.."
+		},
+		{
+			"name": "html5up-paradigm-shift",
+			"path": "../../../JacoSeth.io/html5up-paradigm-shift"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "JacoSeth.github.io",
+        "liveServer.settings.port": 5502
+    }
+}
